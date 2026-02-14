@@ -1,0 +1,108 @@
+/* Custom styles for User Management System */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+}
+
+.btn-sm {
+    margin-right: 3px;
+}
+
+/* Image styling */
+.user-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.no-image-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+}
+
+.no-image-placeholder-large {
+    width: 120px;
+    height: 120px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 3rem;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.current-image {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Hover effects */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+    
+    .btn-sm {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+    }
+    
+    .user-image {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .no-image-placeholder {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Custom alert styling */
+.alert {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.alert-dismissible .btn-close {
+    padding: 0.75rem;
+}
