@@ -1,2 +1,23 @@
 # PHP-User-Management-System-CRUD-model-three
-This enhanced user management system features secure image upload with preview (JPG, PNG, GIF, max 5MB) and comprehensive form validation. It validates names , phone numbers, email format, and required gender selection. With automatic unique filename generation, individual error messages, and visual indicators, it ensures data integrity.
+
+A complete PHP/MySQL user management system with secure image upload and comprehensive form validation.
+
+## Features
+- ✅ Create - Add new users with validation
+- 👁️ View user details
+- ✏️ Update existing users
+- 🗑️ Delete users
+- 🔒 Server-side validation with error messages
+- 🚫 Duplicate phone/email checking
+- 💾 Input persistence after validation errors
+- 🎨 Bootstrap 5 responsive design
+- 📱 Font Awesome icons
+- ⚡ Session-based flash messages
+
+
+## Technologies Used
+- 🐘 PHP (MySQLi)
+- 🗄️ MySQL
+- 🅱️ Bootstrap 5
+- 🎯 Font Awesome 6
+- 🌐 HTML5 / 🎨 CSS3
